@@ -180,7 +180,7 @@ window.addEventListener("DOMContentLoaded", function () {
               "line-cap": "round",
             },
             paint: {
-              "line-color": "red",
+              "line-color": "#E26994",
               "line-width": 6,
             },
           });
