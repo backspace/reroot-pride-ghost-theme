@@ -113,3 +113,7 @@ body:not(.with-full-cover) .cover {
         margin-top: 0;
     }
 }
+
+.gh-outer {
+    padding: 0;
+}
