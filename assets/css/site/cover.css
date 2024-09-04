@@ -117,3 +117,7 @@ body:not(.with-full-cover) .cover {
 .gh-outer {
     padding: 0;
 }
+
+.gh-outer .gh-head-inner {
+    padding: 0 var(--gap);
+}

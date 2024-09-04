@@ -19,3 +19,8 @@
         margin: 0;
     }
 }
+
+.home-template .gh-head-logo, .home-template .gh-head .nav>li a, .home-template .gh-head .gh-search {
+    color: black;
+    background: white;
+}
