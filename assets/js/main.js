@@ -97,7 +97,7 @@ window.addEventListener("DOMContentLoaded", function () {
     map = new maplibregl.Map({
       interactive: false,
       container: "map",
-      zoom: h.maxZoom,
+      zoom: h.maxZoom + 1,
       center: [h.centerLon, h.centerLat],
       style: {
         version: 8,
