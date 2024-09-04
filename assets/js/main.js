@@ -106,7 +106,7 @@ window.addEventListener("DOMContentLoaded", function () {
             type: "vector",
             url: `pmtiles://${PMTILES_URL}`,
             attribution:
-              '© <a href="https://openstreetmap.org">OpenStreetMap</a>',
+              '<a href="https://openstreetmap.org">OpenStreetMap</a>',
           },
         },
         layers: [
