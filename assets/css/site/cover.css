@@ -13,19 +13,6 @@ body:not(.with-full-cover) .cover {
     height: 60vh;
 }
 
-.with-full-cover .cover::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-    content: "";
-    background-color: #000;
-    opacity: 0.3;
-    transition: opacity 1.5s ease;
-}
-
 .cover.image-loading::before {
     opacity: 1;
 }
