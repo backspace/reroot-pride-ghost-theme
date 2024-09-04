@@ -1,4 +1,11 @@
 @font-face {
+    font-family: "Departure Mono";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../fonts/DepartureMono-Regular.woff2") format("woff2"), url("../fonts/DepartureMono-Regular.woff") format("woff");
+}
+
+@font-face {
     font-family: Mulish;
     font-style: normal;
     font-weight: 400;
