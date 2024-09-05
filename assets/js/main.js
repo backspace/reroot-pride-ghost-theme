@@ -172,7 +172,7 @@ window.addEventListener("DOMContentLoaded", function () {
           });
 
           map.addLayer({
-            id: "reroot-layer",
+            id: "reroot-layer-underlay",
             type: "line",
             source: "reroot",
             layout: {
@@ -181,7 +181,21 @@ window.addEventListener("DOMContentLoaded", function () {
             },
             paint: {
               "line-color": "#E26994",
-              "line-width": 6,
+              "line-width": 20,
+            },
+          });
+
+          map.addLayer({
+            id: "reroot-layer",
+            type: "line",
+            source: "reroot",
+            layout: {
+              "line-join": "round",
+              "line-cap": "round",
+            },
+            paint: {
+              "line-color": "white",
+              "line-width": 12,
             },
           });
         });
